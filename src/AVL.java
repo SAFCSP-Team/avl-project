@@ -1,60 +1,3 @@
-# AVL project
-
-   
-   
-### Objective
-
-In this project, our objective is to understand how to create an AVL tree by developing an insert method that checks the balance factor in each insert operation, and rebalance the tree when its not.    
-   
-   
-### Problem
-   
-   
-Create the below `AVL` tree:   
-
-Figure 1   
-   
-   
-### Implementation   
-
-
-In AVL class  
-- Complete the insert method.
-
-In Main
-- Create an AVL object.
-- Insert the below numbers to the AVL tree, in the order from left to right:   
-15, 55, 32, 105, 220.   
-   
-<br/>
-<br/>
-
-
-Node class
-
-```java
-
-public class Node {
-    int data;
-    Node left, right;
-    int height;
-
-    Node(int data) {
-        this.data = data;
-        this.left = null;
-        this.right = null;
-        this.height = 0;
-    }
-}
-
-```
-
-
-
-
-AVL class
-``` java
-
 public class AVL {
 
     public Node root;
@@ -161,14 +104,14 @@ public class AVL {
     }
 
     public static void main(String[] args) {
-        
-        /* Add your code here */
+        AVL tree = new AVL(new Node(15));
+        tree.insert(55);
+        tree.insert(32);
+        tree.insert(105);
+        tree.insert(220);
 
 
         tree.printPreOrder();
     }
 
 }
-
-
-```
