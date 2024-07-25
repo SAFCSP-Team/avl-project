@@ -21,7 +21,7 @@ Figure 1
 In AVL class  
 - Complete the insert method.
 
-In Main
+In Main method
 - Create an AVL object.
 - Insert the below numbers to the AVL tree, in the order from left to right:   
 15, 55, 32, 105, 220.   
