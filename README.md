@@ -13,6 +13,7 @@ In this project, our objective is to understand how to create an AVL tree by dev
 Create the below `AVL` tree:   
 
 Figure 1   
+<img width="910" alt="AVL" src="https://github.com/SAFCSP-Team/avl-project/blob/main/images/55%404x.png">
    
    
 ### Implementation   
