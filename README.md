@@ -162,8 +162,11 @@ public class AVL {
 
     public static void main(String[] args) {
         
-        /* Add your code here */
-
+ AVL tree = new AVL(new Node(15));
+        tree.insert(55);
+        tree.insert(32);
+        tree.insert(105);
+        tree.insert(220);
 
         tree.printPreOrder();
     }
